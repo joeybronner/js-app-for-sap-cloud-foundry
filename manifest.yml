@@ -1,0 +1,6 @@
+---
+applications:
+- name: js-app-for-sap-cloud-foundry
+  memory: 512M
+  host: js-app-for-sap-cloud-foundry
+  command: node app.js
