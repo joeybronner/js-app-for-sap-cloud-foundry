@@ -4,3 +4,5 @@ applications:
   memory: 512M
   host: js-app-for-sap-cloud-foundry
   command: node app.js
+  services:
+  - mongodb-service

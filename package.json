@@ -2,11 +2,19 @@
   "name": "js-app-for-sap-cloud-foundry",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Joey BRONNER",
+    "email": "joey.bronner@sap.com"
+  },
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
     "express": "3.2.6",
-    "ejs": "*"
+    "ejs": "*",
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "mongoose": "^4.5.10",
+    "path": "^0.12.7"
   }
 }
